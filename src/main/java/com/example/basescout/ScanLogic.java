@@ -6,7 +6,6 @@ import net.minecraft.client.player.LocalPlayer;
 import net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity;
 import net.minecraft.world.level.block.entity.BarrelBlockEntity;
 import net.minecraft.world.level.block.entity.BeaconBlockEntity;
-import net.minecraft.world.level.block.entity.BedBlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.entity.BrewingStandBlockEntity;
 import net.minecraft.world.level.block.entity.ChestBlockEntity;
@@ -38,7 +37,6 @@ public final class ScanLogic {
         if (be instanceof EnchantingTableBlockEntity) return 3;
         if (be instanceof EnderChestBlockEntity) return 3;
         if (be instanceof ShulkerBoxBlockEntity) return 3;
-        if (be instanceof BedBlockEntity) return 3;
         if (be instanceof ChestBlockEntity) return 2;
         if (be instanceof BarrelBlockEntity) return 2;
         if (be instanceof AbstractFurnaceBlockEntity) return 2;
