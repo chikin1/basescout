@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "basescout",
+  "version": "0.1.0",
+  "name": "BaseScout",
+  "description": "Passive client-side scanner that points out base-like clusters in chunks your game already loaded.",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.basescout.BaseScoutClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
